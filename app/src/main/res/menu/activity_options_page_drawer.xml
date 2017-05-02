@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_RegisterChild"
+            android:icon="@drawable/ic_children"
+            android:title="Register Child" />
+        <item
+            android:id="@+id/nav_MissingAlbum"
+            android:icon="@drawable/ic_album"
+            android:title="Missing Photoalbum" />
+        <item
+            android:id="@+id/nav_ForgottenAlbum"
+            android:icon="@drawable/ic_forget"
+            android:title="Fogotten Photoalbum" />
+        <item
+            android:id="@+id/nav_Rfidfail"
+            android:icon="@drawable/ic_failed"
+            android:title="RFID Tag Fail" />
+        <item
+            android:id="@+id/nav_proceed"
+            android:icon="@drawable/ic_pro"
+            android:title="Proceed"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
