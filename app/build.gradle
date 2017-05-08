@@ -30,7 +30,6 @@ dependencies {
     compile 'com.android.support:support-v4:25.2.0'
     compile 'com.parse:parse-android:1.+'
     compile 'com.parse.bolts:bolts-android:1.+'
-    compile 'com.parse:parseinterceptors:0.0.2 @aar'
     compile 'com.github.moondroid.coverflow:library:1.0'
     compile 'de.greenrobot:eventbus:2.4.0'
     compile 'com.google.android.gms:play-services:9.0.2'
